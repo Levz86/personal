@@ -3,7 +3,6 @@ from . import views
 from django.views.generic import ListView, DetailView, CreateView
 from .models import Post
 '''This is a docstring'''
-
 urlpatterns = [
     #path('', views.index),
     path('Jelly_Jumpers', views.Jelly_Jumpers),
