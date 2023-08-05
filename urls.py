@@ -2,7 +2,8 @@ from django.urls import path, include
 from . import views
 from django.views.generic import ListView, DetailView, CreateView
 from .models import Post
-'''This is a docstring'''
+'''This is the first docstring'''
+
 urlpatterns = [
     #path('', views.index),
     path('Jelly_Jumpers', views.Jelly_Jumpers),
